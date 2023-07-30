@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body * {
+    font-family: "Inter", sans-serif;
+  }
+
+  section {
+    color: aliceblue;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: right;
+    justify-content: space-evenly;
+  }
+
+  #navbar {
+    background-color: rgb(101, 169, 127);
+    font-family: "Inter", sans-serif;
+  }
+  
+  #welcome-section {
+    background-color: rgb(75, 118, 145);
+    text-align: center;
+    padding: 24px;
+  }
+
+  #projects {
+    background-color: rgb(214, 88, 88);
+  }
+  
+  #contact-section-header {
+    display: flex;
+    align-items: center;
+  }
+
+  footer {
+    color: black;
+    padding: 24px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  #social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 50%;
+  }
